@@ -1,0 +1,49 @@
+{
+  "phase": "final",
+  "weights": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\algoritmos\\modernos\\yolo\\modelos\\round0\\batch__20261026T190240706779Z\\treino\\weights\\best.pt",
+  "weights_sha256": "a9a1be446e5e3128b95714c7df5a58bd05699d467a48d40b7ca444618cbeec42",
+  "inventory_sha256": "75d00f0d1d46244d81483c892f803589877ad63b4d222f57becd34c580ff627c",
+  "confidence": 0.2,
+  "thresholds": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7
+  ],
+  "historical_exposure": true,
+  "model": "YOLO11s",
+  "label_semantics": "individual_only",
+  "runtime": {
+    "inference": {
+      "imgsz": 1024,
+      "iou": 0.7,
+      "max_det": 1000
+    },
+    "matching_iou": 0.5,
+    "code": {
+      "algoritmos/modernos/yolo/detector.py": "2a65cbc88df92410092bfe72964ca3bae66fed0dd0a3d94410ba065c1ae4cef1",
+      "scripts/modernos/yolo/avaliar.py": "2ebdbd839593cba112c5b36caa9fb57540626d3a02422461e401d2b853eb146c",
+      "scripts/analise/avaliacao_temporal.py": "74f8da4dca5e4bcd1631c4617a5b458bd537e4b12d1b5662539a56f3e4341e4a",
+      "scripts/analise/avaliacao_individuos.py": "b3c53009cd80e8da1d3600f8097ebd15a683190c2922a9684e62160482032165",
+      "scripts/analise/avaliacao_deteccao.py": "b90ebfa185a903c514ac084f6025c005192e36032e3e95707990632724a29ce9",
+      "scripts/temporais/frames.py": "a93e179eff622c823201f2825e42f9ee47f0fb57e84bc1a20394e4d346e4a2d4",
+      "scripts/temporais/inventario.py": "888a2362d43ae56251cfe716da4446bbf1655e3d7971e5ea22bc7afefd1236f2",
+      "scripts/temporais/videos.py": "03e697948ff3e83815e3415aa07aee89f89368920e6384e2716228e11a5c8d94"
+    },
+    "versions": {
+      "torch": "2.9.1+cu128",
+      "torchvision": "0.24.1+cu128",
+      "ultralytics": "8.3.228",
+      "numpy": "2.5.2",
+      "scipy": "1.18.1",
+      "opencv-python": "5.0.0.93"
+    }
+  },
+  "freeze_sha256": "d70e82d04c028e26678af8e779c409b8804cccf8df89f11c08796bfdbf30a5cc"
+}

@@ -1,0 +1,3715 @@
+{
+  "rows": [
+    {
+      "phase": "selection_images",
+      "system": "YOLO",
+      "key": "YOLO",
+      "metric": {
+        "tp": 836,
+        "fp": 467,
+        "fn": 424,
+        "precisao": 0.6415963161933999,
+        "recall": 0.6634920634920635,
+        "f1": 0.6523605150214592,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 829,
+          "perdidas": 371,
+          "recall": 0.6908333333333333
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 7,
+          "perdidas": 53,
+          "recall": 0.11666666666666667
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 0,
+          "perdidas": 45,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 511,
+          "fp": 120,
+          "fn": 129,
+          "precisao": 0.8098256735340729,
+          "recall": 0.7984375,
+          "f1": 0.8040912667191188,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 1,
+          "fp": 41,
+          "fn": 43,
+          "precisao": 0.023809523809523808,
+          "recall": 0.022727272727272728,
+          "f1": 0.023255813953488372,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 134,
+          "fp": 69,
+          "fn": 41,
+          "precisao": 0.6600985221674877,
+          "recall": 0.7657142857142857,
+          "f1": 0.708994708994709,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 190,
+          "fp": 237,
+          "fn": 211,
+          "precisao": 0.4449648711943794,
+          "recall": 0.47381546134663344,
+          "f1": 0.45893719806763283,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.49881974693373726,
+      "clusters": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 45,
+        "precisao": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection_images",
+      "system": "Limiar clássico",
+      "key": "limiarizacao_classico",
+      "metric": {
+        "tp": 355,
+        "fp": 1059,
+        "fn": 905,
+        "precisao": 0.25106082036775107,
+        "recall": 0.28174603174603174,
+        "f1": 0.2655198204936425,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 352,
+          "perdidas": 848,
+          "recall": 0.29333333333333333
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 3,
+          "perdidas": 57,
+          "recall": 0.05
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 15,
+          "perdidas": 30,
+          "recall": 0.3333333333333333
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 192,
+          "fp": 408,
+          "fn": 448,
+          "precisao": 0.32,
+          "recall": 0.3,
+          "f1": 0.3096774193548387,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 44,
+          "precisao": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 175,
+          "precisao": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 163,
+          "fp": 651,
+          "fn": 238,
+          "precisao": 0.20024570024570024,
+          "recall": 0.40648379052369077,
+          "f1": 0.2683127572016461,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.1444975441391212,
+      "clusters": {
+        "tp": 15,
+        "fp": 52,
+        "fn": 30,
+        "precisao": 0.22388059701492538,
+        "recall": 0.3333333333333333,
+        "f1": 0.26785714285714285,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection_images",
+      "system": "Limiar híbrido",
+      "key": "limiarizacao_hibrido",
+      "metric": {
+        "tp": 693,
+        "fp": 206,
+        "fn": 567,
+        "precisao": 0.7708565072302559,
+        "recall": 0.55,
+        "f1": 0.6419638721630384,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 693,
+          "perdidas": 507,
+          "recall": 0.5775
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 0,
+          "perdidas": 60,
+          "recall": 0.0
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 0,
+          "perdidas": 45,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 418,
+          "fp": 35,
+          "fn": 222,
+          "precisao": 0.9227373068432672,
+          "recall": 0.653125,
+          "f1": 0.7648673376029277,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 3,
+          "fp": 12,
+          "fn": 41,
+          "precisao": 0.2,
+          "recall": 0.06818181818181818,
+          "f1": 0.1016949152542373,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 105,
+          "fp": 86,
+          "fn": 70,
+          "precisao": 0.5497382198952879,
+          "recall": 0.6,
+          "f1": 0.5737704918032787,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 167,
+          "fp": 73,
+          "fn": 234,
+          "precisao": 0.6958333333333333,
+          "recall": 0.4164588528678304,
+          "f1": 0.5210608424336973,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.49034839677353526,
+      "clusters": {
+        "tp": 0,
+        "fp": 5,
+        "fn": 45,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection_images",
+      "system": "Blobs clássico",
+      "key": "blobs_classico",
+      "metric": {
+        "tp": 904,
+        "fp": 551,
+        "fn": 356,
+        "precisao": 0.6213058419243986,
+        "recall": 0.7174603174603175,
+        "f1": 0.6659300184162062,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 897,
+          "perdidas": 303,
+          "recall": 0.7475
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 7,
+          "perdidas": 53,
+          "recall": 0.11666666666666667
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 0,
+          "perdidas": 45,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 514,
+          "fp": 64,
+          "fn": 126,
+          "precisao": 0.889273356401384,
+          "recall": 0.803125,
+          "f1": 0.8440065681444991,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 15,
+          "fp": 54,
+          "fn": 29,
+          "precisao": 0.21739130434782608,
+          "recall": 0.3409090909090909,
+          "f1": 0.26548672566371684,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 113,
+          "fp": 223,
+          "fn": 62,
+          "precisao": 0.33630952380952384,
+          "recall": 0.6457142857142857,
+          "f1": 0.44227005870841485,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 262,
+          "fp": 210,
+          "fn": 139,
+          "precisao": 0.5550847457627118,
+          "recall": 0.6533665835411472,
+          "f1": 0.6002290950744559,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.5379981118977717,
+      "clusters": {
+        "tp": 0,
+        "fp": 19,
+        "fn": 45,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection_images",
+      "system": "Blobs híbrido",
+      "key": "blobs_hibrido",
+      "metric": {
+        "tp": 669,
+        "fp": 538,
+        "fn": 591,
+        "precisao": 0.5542667771333886,
+        "recall": 0.530952380952381,
+        "f1": 0.542359140656668,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 665,
+          "perdidas": 535,
+          "recall": 0.5541666666666667
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 4,
+          "perdidas": 56,
+          "recall": 0.06666666666666667
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 0,
+          "perdidas": 45,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 409,
+          "fp": 141,
+          "fn": 231,
+          "precisao": 0.7436363636363637,
+          "recall": 0.6390625,
+          "f1": 0.6873949579831933,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 25,
+          "fp": 17,
+          "fn": 19,
+          "precisao": 0.5952380952380952,
+          "recall": 0.5681818181818182,
+          "f1": 0.5813953488372093,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 126,
+          "fp": 80,
+          "fn": 49,
+          "precisao": 0.6116504854368932,
+          "recall": 0.72,
+          "f1": 0.6614173228346457,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 109,
+          "fp": 300,
+          "fn": 292,
+          "precisao": 0.2665036674816626,
+          "recall": 0.2718204488778055,
+          "f1": 0.2691358024691358,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.5498358580310461,
+      "clusters": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 45,
+        "precisao": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection_images",
+      "system": "Watershed clássico",
+      "key": "watershed_classico",
+      "metric": {
+        "tp": 393,
+        "fp": 654,
+        "fn": 867,
+        "precisao": 0.3753581661891118,
+        "recall": 0.3119047619047619,
+        "f1": 0.34070221066319895,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 390,
+          "perdidas": 810,
+          "recall": 0.325
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 3,
+          "perdidas": 57,
+          "recall": 0.05
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 27,
+          "perdidas": 18,
+          "recall": 0.6
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 87,
+          "fp": 111,
+          "fn": 553,
+          "precisao": 0.4393939393939394,
+          "recall": 0.1359375,
+          "f1": 0.20763723150357996,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 15,
+          "fp": 60,
+          "fn": 29,
+          "precisao": 0.2,
+          "recall": 0.3409090909090909,
+          "f1": 0.25210084033613445,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 121,
+          "fp": 145,
+          "fn": 54,
+          "precisao": 0.4548872180451128,
+          "recall": 0.6914285714285714,
+          "f1": 0.5487528344671202,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 170,
+          "fp": 338,
+          "fn": 231,
+          "precisao": 0.3346456692913386,
+          "recall": 0.4239401496259352,
+          "f1": 0.37403740374037403,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.34563207751180214,
+      "clusters": {
+        "tp": 27,
+        "fp": 36,
+        "fn": 18,
+        "precisao": 0.42857142857142855,
+        "recall": 0.6,
+        "f1": 0.5,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection_images",
+      "system": "Watershed híbrido",
+      "key": "watershed_hibrido",
+      "metric": {
+        "tp": 310,
+        "fp": 268,
+        "fn": 950,
+        "precisao": 0.5363321799307958,
+        "recall": 0.24603174603174602,
+        "f1": 0.3373231773667029,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 1200,
+          "localizadas": 310,
+          "perdidas": 890,
+          "recall": 0.25833333333333336
+        },
+        "2": {
+          "anotacoes": 60,
+          "localizadas": 0,
+          "perdidas": 60,
+          "recall": 0.0
+        },
+        "1": {
+          "anotacoes": 45,
+          "localizadas": 0,
+          "perdidas": 45,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 69,
+          "fp": 69,
+          "fn": 571,
+          "precisao": 0.5,
+          "recall": 0.1078125,
+          "f1": 0.17737789203084833,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 8,
+          "fp": 9,
+          "fn": 36,
+          "precisao": 0.47058823529411764,
+          "recall": 0.18181818181818182,
+          "f1": 0.26229508196721313,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 118,
+          "fp": 68,
+          "fn": 57,
+          "precisao": 0.6344086021505376,
+          "recall": 0.6742857142857143,
+          "f1": 0.6537396121883656,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 115,
+          "fp": 122,
+          "fn": 286,
+          "precisao": 0.48523206751054854,
+          "recall": 0.286783042394015,
+          "f1": 0.3605015673981191,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.36347853839613653,
+      "clusters": {
+        "tp": 0,
+        "fp": 7,
+        "fn": 45,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 60
+    },
+    {
+      "phase": "selection",
+      "system": "YOLO",
+      "key": "YOLO",
+      "metric": {
+        "tp": 80469,
+        "fp": 48040,
+        "fn": 42790,
+        "precisao": 0.6261740422849762,
+        "recall": 0.6528448226904323,
+        "f1": 0.6392313558514188,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 79905,
+          "perdidas": 37381,
+          "recall": 0.6812833586276282
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 564,
+          "perdidas": 5409,
+          "recall": 0.09442491210447011
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 0,
+          "perdidas": 4403,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 50325,
+          "fp": 11987,
+          "fn": 12321,
+          "precisao": 0.8076293490820388,
+          "recall": 0.8033234364524471,
+          "f1": 0.8054706381344131,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 122,
+          "fp": 4018,
+          "fn": 4226,
+          "precisao": 0.029468599033816423,
+          "recall": 0.028058877644894203,
+          "f1": 0.028746465598491987,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 12310,
+          "fp": 6873,
+          "fn": 4632,
+          "precisao": 0.6417140176197675,
+          "recall": 0.7265966237752332,
+          "f1": 0.681522491349481,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 17712,
+          "fp": 25162,
+          "fn": 21611,
+          "precisao": 0.4131175071138685,
+          "recall": 0.45042341632123695,
+          "f1": 0.43096463374575716,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.48667605720703583,
+      "clusters": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4403,
+        "precisao": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "selection",
+      "system": "Limiar clássico",
+      "key": "limiarizacao_classico",
+      "metric": {
+        "tp": 33832,
+        "fp": 105958,
+        "fn": 89427,
+        "precisao": 0.2420201731168181,
+        "recall": 0.2744789427141223,
+        "f1": 0.2572296416257047,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 33567,
+          "perdidas": 83719,
+          "recall": 0.28619784117456476
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 265,
+          "perdidas": 5708,
+          "recall": 0.04436631508454713
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 1362,
+          "perdidas": 3041,
+          "recall": 0.3093345446286623
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 17443,
+          "fp": 41811,
+          "fn": 45203,
+          "precisao": 0.2943767509366456,
+          "recall": 0.2784375698368611,
+          "f1": 0.2861853978671042,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 4348,
+          "precisao": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16942,
+          "precisao": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 16389,
+          "fp": 64147,
+          "fn": 22934,
+          "precisao": 0.20349905632263832,
+          "recall": 0.4167789843094372,
+          "f1": 0.27347132881135333,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.1399141816696144,
+      "clusters": {
+        "tp": 1362,
+        "fp": 5126,
+        "fn": 3041,
+        "precisao": 0.2099260172626387,
+        "recall": 0.3093345446286623,
+        "f1": 0.25011477366633,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "selection",
+      "system": "Limiar híbrido",
+      "key": "limiarizacao_hibrido",
+      "metric": {
+        "tp": 66643,
+        "fp": 21523,
+        "fn": 56616,
+        "precisao": 0.7558809518408457,
+        "recall": 0.5406745146399046,
+        "f1": 0.6304174056994206,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 66538,
+          "perdidas": 50748,
+          "recall": 0.5673140869327967
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 105,
+          "perdidas": 5868,
+          "recall": 0.01757910597689603
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 0,
+          "perdidas": 4403,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 40590,
+          "fp": 4136,
+          "fn": 22056,
+          "precisao": 0.9075258239055582,
+          "recall": 0.6479264438272196,
+          "f1": 0.7560630331930112,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 234,
+          "fp": 1275,
+          "fn": 4114,
+          "precisao": 0.1550695825049702,
+          "recall": 0.053817847286108556,
+          "f1": 0.07990438791190028,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 9875,
+          "fp": 8225,
+          "fn": 7067,
+          "precisao": 0.5455801104972375,
+          "recall": 0.5828709715499941,
+          "f1": 0.563609383026083,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 15944,
+          "fp": 7887,
+          "fn": 23379,
+          "precisao": 0.6690445218412991,
+          "recall": 0.4054624520001017,
+          "f1": 0.5049244703423378,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.47612531861833307,
+      "clusters": {
+        "tp": 0,
+        "fp": 232,
+        "fn": 4403,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "selection",
+      "system": "Blobs clássico",
+      "key": "blobs_classico",
+      "metric": {
+        "tp": 88971,
+        "fp": 53591,
+        "fn": 34288,
+        "precisao": 0.6240863624247696,
+        "recall": 0.7218215302736514,
+        "f1": 0.6694053517216473,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 88400,
+          "perdidas": 28886,
+          "recall": 0.7537131456439814
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 571,
+          "perdidas": 5402,
+          "recall": 0.09559685250292985
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 22,
+          "perdidas": 4381,
+          "recall": 0.004996593231887349
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 50621,
+          "fp": 6539,
+          "fn": 12025,
+          "precisao": 0.8856018194541637,
+          "recall": 0.808048398940076,
+          "f1": 0.8450494966863096,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 1475,
+          "fp": 5209,
+          "fn": 2873,
+          "precisao": 0.2206762417713944,
+          "recall": 0.3392364305427783,
+          "f1": 0.26740391588107326,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 10505,
+          "fp": 20734,
+          "fn": 6437,
+          "precisao": 0.33627836998623517,
+          "recall": 0.620056663912171,
+          "f1": 0.4360640086341089,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 26370,
+          "fp": 21109,
+          "fn": 12953,
+          "precisao": 0.5554034415215148,
+          "recall": 0.6705999033644432,
+          "f1": 0.6075896868735743,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.5390267770187664,
+      "clusters": {
+        "tp": 22,
+        "fp": 2099,
+        "fn": 4381,
+        "precisao": 0.010372465818010372,
+        "recall": 0.004996593231887349,
+        "f1": 0.00674432863274065,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "selection",
+      "system": "Blobs híbrido",
+      "key": "blobs_hibrido",
+      "metric": {
+        "tp": 65065,
+        "fp": 53022,
+        "fn": 58194,
+        "precisao": 0.5509920651722883,
+        "recall": 0.5278722040581215,
+        "f1": 0.5391844074482278,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 64648,
+          "perdidas": 52638,
+          "recall": 0.551199631669594
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 417,
+          "perdidas": 5556,
+          "recall": 0.06981416373681568
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 0,
+          "perdidas": 4403,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 39902,
+          "fp": 13932,
+          "fn": 22744,
+          "precisao": 0.741204443288628,
+          "recall": 0.6369440985857038,
+          "f1": 0.6851304945054945,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 2838,
+          "fp": 1671,
+          "fn": 1510,
+          "precisao": 0.6294078509647372,
+          "recall": 0.6527138914443422,
+          "f1": 0.640849045952354,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 12067,
+          "fp": 6982,
+          "fn": 4875,
+          "precisao": 0.633471573310935,
+          "recall": 0.712253571006965,
+          "f1": 0.6705565280208942,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 10258,
+          "fp": 30437,
+          "fn": 29065,
+          "precisao": 0.25207027890404227,
+          "recall": 0.2608651425374463,
+          "f1": 0.25639231172986077,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.5632320950521509,
+      "clusters": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 4403,
+        "precisao": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "selection",
+      "system": "Watershed clássico",
+      "key": "watershed_classico",
+      "metric": {
+        "tp": 38232,
+        "fp": 64529,
+        "fn": 85027,
+        "precisao": 0.3720477613102247,
+        "recall": 0.31017613318297244,
+        "f1": 0.3383063445712769,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 38099,
+          "perdidas": 79187,
+          "recall": 0.32483842913902766
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 133,
+          "perdidas": 5840,
+          "recall": 0.022266867570734972
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 2345,
+          "perdidas": 2058,
+          "recall": 0.5325914149443561
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 9234,
+          "fp": 10105,
+          "fn": 53412,
+          "precisao": 0.4774807384042608,
+          "recall": 0.14739967436069343,
+          "f1": 0.22526071842410197,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 1430,
+          "fp": 6628,
+          "fn": 2918,
+          "precisao": 0.1774633904194589,
+          "recall": 0.32888684452621897,
+          "f1": 0.23053361276801548,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 11557,
+          "fp": 13455,
+          "fn": 5385,
+          "precisao": 0.46205821205821207,
+          "recall": 0.6821508676661551,
+          "f1": 0.5509367402393097,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 16011,
+          "fp": 34341,
+          "fn": 23312,
+          "precisao": 0.3179814108674929,
+          "recall": 0.407166289448923,
+          "f1": 0.3570894898243658,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.34095514031394825,
+      "clusters": {
+        "tp": 2345,
+        "fp": 3509,
+        "fn": 2058,
+        "precisao": 0.4005807994533652,
+        "recall": 0.5325914149443561,
+        "f1": 0.45724870819927854,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "selection",
+      "system": "Watershed híbrido",
+      "key": "watershed_hibrido",
+      "metric": {
+        "tp": 31063,
+        "fp": 26733,
+        "fn": 92196,
+        "precisao": 0.5374593397466952,
+        "recall": 0.25201405171224817,
+        "f1": 0.34313330203529313,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 117286,
+          "localizadas": 31021,
+          "perdidas": 86265,
+          "recall": 0.2644902204866736
+        },
+        "2": {
+          "anotacoes": 5973,
+          "localizadas": 42,
+          "perdidas": 5931,
+          "recall": 0.007031642390758413
+        },
+        "1": {
+          "anotacoes": 4403,
+          "localizadas": 6,
+          "perdidas": 4397,
+          "recall": 0.0013627072450601862
+        }
+      },
+      "participants": {
+        "13": {
+          "tp": 7807,
+          "fp": 6643,
+          "fn": 54839,
+          "precisao": 0.5402768166089965,
+          "recall": 0.1246208856112122,
+          "f1": 0.20252671993358928,
+          "situacao_f1": "definido"
+        },
+        "29": {
+          "tp": 888,
+          "fp": 923,
+          "fn": 3460,
+          "precisao": 0.49033683048039756,
+          "recall": 0.20423183072677092,
+          "f1": 0.28835849975645395,
+          "situacao_f1": "definido"
+        },
+        "52": {
+          "tp": 11370,
+          "fp": 5782,
+          "fn": 5572,
+          "precisao": 0.6628964552238806,
+          "recall": 0.6711132097745248,
+          "f1": 0.6669795271895348,
+          "situacao_f1": "definido"
+        },
+        "54": {
+          "tp": 10998,
+          "fp": 13385,
+          "fn": 28325,
+          "precisao": 0.45105196243284257,
+          "recall": 0.27968364570353227,
+          "f1": 0.34527360060276896,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.37578458687058675,
+      "clusters": {
+        "tp": 6,
+        "fp": 623,
+        "fn": 4397,
+        "precisao": 0.009538950715421303,
+        "recall": 0.0013627072450601862,
+        "f1": 0.0023847376788553257,
+        "situacao_f1": "definido"
+      },
+      "frames": 5850
+    },
+    {
+      "phase": "final",
+      "system": "YOLO",
+      "key": "YOLO",
+      "metric": {
+        "tp": 130739,
+        "fp": 31845,
+        "fn": 28713,
+        "precisao": 0.8041320179107415,
+        "recall": 0.819926999974914,
+        "f1": 0.8119527009402675,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 130739,
+          "perdidas": 25777,
+          "recall": 0.8353075723887654
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 0,
+          "perdidas": 2936,
+          "recall": 0.0
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 0,
+          "perdidas": 6601,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 3173,
+          "fp": 4520,
+          "fn": 1856,
+          "precisao": 0.4124528792408683,
+          "recall": 0.6309405448399285,
+          "f1": 0.49882094010375727,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 80328,
+          "fp": 15096,
+          "fn": 11268,
+          "precisao": 0.8418008048289738,
+          "recall": 0.8769815275776235,
+          "f1": 0.8590311196663458,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 11287,
+          "fp": 6388,
+          "fn": 5545,
+          "precisao": 0.6385855728429986,
+          "recall": 0.6705679657794676,
+          "f1": 0.6541861071666618,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 35951,
+          "fp": 5841,
+          "fn": 10044,
+          "precisao": 0.8602364088820827,
+          "recall": 0.781628437873682,
+          "f1": 0.8190506567031565,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.7077722059099804,
+      "clusters": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6601,
+        "precisao": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    },
+    {
+      "phase": "final",
+      "system": "Limiar clássico",
+      "key": "limiarizacao_classico",
+      "metric": {
+        "tp": 3360,
+        "fp": 181380,
+        "fn": 156092,
+        "precisao": 0.01818772328678142,
+        "recall": 0.021072172189749893,
+        "f1": 0.019523986612123467,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 3360,
+          "perdidas": 153156,
+          "recall": 0.021467453806639576
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 0,
+          "perdidas": 2936,
+          "recall": 0.0
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 519,
+          "perdidas": 6082,
+          "recall": 0.0786244508407817
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 5029,
+          "precisao": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 3169,
+          "fp": 62012,
+          "fn": 88427,
+          "precisao": 0.048618462435372274,
+          "recall": 0.034597580680379054,
+          "f1": 0.04042684832596618,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 0,
+          "fp": 0,
+          "fn": 16832,
+          "precisao": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 191,
+          "fp": 119368,
+          "fn": 45804,
+          "precisao": 0.0015975376174106508,
+          "recall": 0.004152625285357104,
+          "f1": 0.002307404230643778,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.01068356313915249,
+      "clusters": {
+        "tp": 519,
+        "fp": 38696,
+        "fn": 6082,
+        "precisao": 0.013234731607803137,
+        "recall": 0.0786244508407817,
+        "f1": 0.022655840754321633,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    },
+    {
+      "phase": "final",
+      "system": "Limiar híbrido",
+      "key": "limiarizacao_hibrido",
+      "metric": {
+        "tp": 59031,
+        "fp": 42087,
+        "fn": 100421,
+        "precisao": 0.5837833026760814,
+        "recall": 0.37021172515866846,
+        "f1": 0.4530912998426527,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 59028,
+          "perdidas": 97488,
+          "recall": 0.37713716169592887
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 3,
+          "perdidas": 2933,
+          "recall": 0.0010217983651226157
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 59,
+          "perdidas": 6542,
+          "recall": 0.008938039690955916
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 2486,
+          "fp": 4187,
+          "fn": 2543,
+          "precisao": 0.3725460812228383,
+          "recall": 0.4943328693577252,
+          "f1": 0.42488463510511026,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 32384,
+          "fp": 15580,
+          "fn": 59212,
+          "precisao": 0.6751730464515053,
+          "recall": 0.3535525568802131,
+          "f1": 0.46408713098308974,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 8631,
+          "fp": 6187,
+          "fn": 8201,
+          "precisao": 0.5824672695370495,
+          "recall": 0.512773288973384,
+          "f1": 0.5454028436018957,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 15530,
+          "fp": 16133,
+          "fn": 30465,
+          "precisao": 0.4904778448030825,
+          "recall": 0.3376453962387216,
+          "f1": 0.39995879368513226,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.45858335084380697,
+      "clusters": {
+        "tp": 59,
+        "fp": 400,
+        "fn": 6542,
+        "precisao": 0.12854030501089325,
+        "recall": 0.008938039690955916,
+        "f1": 0.01671388101983003,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    },
+    {
+      "phase": "final",
+      "system": "Blobs clássico",
+      "key": "blobs_classico",
+      "metric": {
+        "tp": 77829,
+        "fp": 76173,
+        "fn": 81623,
+        "precisao": 0.5053765535512525,
+        "recall": 0.48810300278453705,
+        "f1": 0.4965896112348223,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 77802,
+          "perdidas": 78714,
+          "recall": 0.49708655984052746
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 27,
+          "perdidas": 2909,
+          "recall": 0.009196185286103543
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 117,
+          "perdidas": 6484,
+          "recall": 0.017724587183760035
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 2573,
+          "fp": 11755,
+          "fn": 2456,
+          "precisao": 0.1795784477945282,
+          "recall": 0.5116325313183535,
+          "f1": 0.2658469804205197,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 45369,
+          "fp": 28186,
+          "fn": 46227,
+          "precisao": 0.6168037522942016,
+          "recall": 0.49531638936198086,
+          "f1": 0.5494244660946649,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 11527,
+          "fp": 6049,
+          "fn": 5305,
+          "precisao": 0.6558375056895767,
+          "recall": 0.6848265209125475,
+          "f1": 0.6700186003255056,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 18360,
+          "fp": 30183,
+          "fn": 27635,
+          "precisao": 0.37822137074346457,
+          "recall": 0.3991738232416567,
+          "f1": 0.3884152404324187,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.46842632181827726,
+      "clusters": {
+        "tp": 117,
+        "fp": 3578,
+        "fn": 6484,
+        "precisao": 0.031664411366711775,
+        "recall": 0.017724587183760035,
+        "f1": 0.022727272727272728,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    },
+    {
+      "phase": "final",
+      "system": "Blobs híbrido",
+      "key": "blobs_hibrido",
+      "metric": {
+        "tp": 120460,
+        "fp": 28163,
+        "fn": 38992,
+        "precisao": 0.8105071220470587,
+        "recall": 0.7554624589218072,
+        "f1": 0.7820173659011604,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 120458,
+          "perdidas": 36058,
+          "recall": 0.7696209972143423
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 2,
+          "perdidas": 2934,
+          "recall": 0.0006811989100817438
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 0,
+          "perdidas": 6601,
+          "recall": 0.0
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 4038,
+          "fp": 3922,
+          "fn": 991,
+          "precisao": 0.507286432160804,
+          "recall": 0.8029429310001989,
+          "f1": 0.6217568711987066,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 67109,
+          "fp": 15555,
+          "fn": 24487,
+          "precisao": 0.8118286073744314,
+          "recall": 0.7326629983842089,
+          "f1": 0.7702169172500861,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 14599,
+          "fp": 1469,
+          "fn": 2233,
+          "precisao": 0.9085760517799353,
+          "recall": 0.8673360266159695,
+          "f1": 0.8874772036474164,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 34714,
+          "fp": 7217,
+          "fn": 11281,
+          "precisao": 0.8278839045097899,
+          "recall": 0.7547342102402435,
+          "f1": 0.7896185428655915,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.7672673837404502,
+      "clusters": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 6601,
+        "precisao": null,
+        "recall": 0.0,
+        "f1": 0.0,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    },
+    {
+      "phase": "final",
+      "system": "Watershed clássico",
+      "key": "watershed_classico",
+      "metric": {
+        "tp": 92520,
+        "fp": 68505,
+        "fn": 66932,
+        "precisao": 0.5745691662785282,
+        "recall": 0.5802373127963274,
+        "f1": 0.5773893290314126,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 92075,
+          "perdidas": 64441,
+          "recall": 0.5882785146566485
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 445,
+          "perdidas": 2491,
+          "recall": 0.15156675749318801
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 75,
+          "perdidas": 6526,
+          "recall": 0.011361914861384638
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 2628,
+          "fp": 20566,
+          "fn": 2401,
+          "precisao": 0.11330516512891264,
+          "recall": 0.5225690992244979,
+          "f1": 0.18623108811961875,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 49081,
+          "fp": 26123,
+          "fn": 42515,
+          "precisao": 0.6526381575448115,
+          "recall": 0.5358421765142583,
+          "f1": 0.5885011990407674,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 14276,
+          "fp": 2799,
+          "fn": 2556,
+          "precisao": 0.8360761346998535,
+          "recall": 0.8481463878326996,
+          "f1": 0.842068009555549,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 26535,
+          "fp": 19017,
+          "fn": 19460,
+          "precisao": 0.5825210748155953,
+          "recall": 0.5769105337536689,
+          "f1": 0.5797022294559079,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.5491256315429607,
+      "clusters": {
+        "tp": 75,
+        "fp": 7384,
+        "fn": 6526,
+        "precisao": 0.010054967153773964,
+        "recall": 0.011361914861384638,
+        "f1": 0.010668563300142247,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    },
+    {
+      "phase": "final",
+      "system": "Watershed híbrido",
+      "key": "watershed_hibrido",
+      "metric": {
+        "tp": 81753,
+        "fp": 27824,
+        "fn": 77699,
+        "precisao": 0.7460781003312739,
+        "recall": 0.5127122895918521,
+        "f1": 0.6077634753130703,
+        "situacao_f1": "definido"
+      },
+      "coverage": {
+        "0": {
+          "anotacoes": 156516,
+          "localizadas": 81753,
+          "perdidas": 74763,
+          "recall": 0.5223299854327992
+        },
+        "2": {
+          "anotacoes": 2936,
+          "localizadas": 0,
+          "perdidas": 2936,
+          "recall": 0.0
+        },
+        "1": {
+          "anotacoes": 6601,
+          "localizadas": 4,
+          "perdidas": 6597,
+          "recall": 0.0006059687926071808
+        }
+      },
+      "participants": {
+        "14": {
+          "tp": 1896,
+          "fp": 5666,
+          "fn": 3133,
+          "precisao": 0.2507273208145993,
+          "recall": 0.37701332272817656,
+          "f1": 0.30116750059566355,
+          "situacao_f1": "definido"
+        },
+        "24": {
+          "tp": 43260,
+          "fp": 10188,
+          "fn": 48336,
+          "precisao": 0.8093848226313426,
+          "recall": 0.4722913664352155,
+          "f1": 0.5965086456523537,
+          "situacao_f1": "definido"
+        },
+        "38": {
+          "tp": 13723,
+          "fp": 1608,
+          "fn": 3109,
+          "precisao": 0.8951144739416868,
+          "recall": 0.8152923003802282,
+          "f1": 0.8533407953238193,
+          "situacao_f1": "definido"
+        },
+        "82": {
+          "tp": 22874,
+          "fp": 10362,
+          "fn": 23121,
+          "precisao": 0.6882296305211216,
+          "recall": 0.49731492553538426,
+          "f1": 0.5774002599992427,
+          "situacao_f1": "definido"
+        }
+      },
+      "macro_f1": 0.5821043003927698,
+      "clusters": {
+        "tp": 4,
+        "fp": 1489,
+        "fn": 6597,
+        "precisao": 0.0026791694574681848,
+        "recall": 0.0006059687926071808,
+        "f1": 0.0009883864591055103,
+        "situacao_f1": "definido"
+      },
+      "frames": 5910
+    }
+  ],
+  "temporal": [
+    {
+      "track": "limiarizacao_classico",
+      "label": "Limiarização clássica",
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_temporal\\final\\batch__20261018T230718785447Z",
+      "frozen": "k1",
+      "control": {
+        "id": "k1",
+        "tp": 3360,
+        "fp": 181380,
+        "fn": 156092,
+        "precisao": 0.01818772328678142,
+        "recall": 0.021072172189749893,
+        "f1": 0.019523986612123467,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 3360,
+            "perdidas": 153156,
+            "recall": 0.021467453806639576
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 0,
+            "perdidas": 2936,
+            "recall": 0.0
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 519,
+            "perdidas": 6082,
+            "recall": 0.0786244508407817
+          }
+        },
+        "seconds": 24.276545899723715,
+        "by_participant_f1": {
+          "14": 0.0,
+          "24": 0.04042684832596618,
+          "38": 0.0,
+          "82": 0.002307404230643778
+        }
+      },
+      "temporal": {
+        "id": "nlm_k7",
+        "tp": 6756,
+        "fp": 125853,
+        "fn": 152696,
+        "precisao": 0.05094676831889238,
+        "recall": 0.04237011765296139,
+        "f1": 0.04626430779871328,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 6756,
+            "perdidas": 149760,
+            "recall": 0.04316491604692172
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 0,
+            "perdidas": 2936,
+            "recall": 0.0
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 1177,
+            "perdidas": 5424,
+            "recall": 0.17830631722466292
+          }
+        },
+        "seconds": 7233.768601300144,
+        "by_participant_f1": {
+          "14": 0.0,
+          "24": 0.0776906916612799,
+          "38": 0.0,
+          "82": 0.01622181316152784
+        }
+      },
+      "selected": {
+        "id": "k1",
+        "tp": 3360,
+        "fp": 181380,
+        "fn": 156092,
+        "precisao": 0.01818772328678142,
+        "recall": 0.021072172189749893,
+        "f1": 0.019523986612123467,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 3360,
+            "perdidas": 153156,
+            "recall": 0.021467453806639576
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 0,
+            "perdidas": 2936,
+            "recall": 0.0
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 519,
+            "perdidas": 6082,
+            "recall": 0.0786244508407817
+          }
+        },
+        "seconds": 24.276545899723715,
+        "by_participant_f1": {
+          "14": 0.0,
+          "24": 0.04042684832596618,
+          "38": 0.0,
+          "82": 0.002307404230643778
+        }
+      },
+      "delta_final": 0.026740321186589814,
+      "delta_selection": -0.02275127353992107,
+      "selection_f1": {
+        "k1": 0.2572296416257047,
+        "nlm_k7": 0.23447836808578365
+      },
+      "cost_ratio": 297.97355155794503,
+      "interval_95": [
+        0.0,
+        0.03597568768394109
+      ]
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "label": "Limiarização híbrida",
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_temporal\\final\\batch__20261018T230718785502Z",
+      "frozen": "aligned_median_k7",
+      "control": {
+        "id": "k1",
+        "tp": 53370,
+        "fp": 36600,
+        "fn": 106082,
+        "precisao": 0.5931977325775258,
+        "recall": 0.3347088779068309,
+        "f1": 0.42794941905685946,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 53367,
+            "perdidas": 103149,
+            "recall": 0.3409683355056352
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 3,
+            "perdidas": 2933,
+            "recall": 0.0010217983651226157
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 10,
+            "perdidas": 6591,
+            "recall": 0.0015149219815179518
+          }
+        },
+        "seconds": 345.32225000012113,
+        "by_participant_f1": {
+          "14": 0.35752917734130374,
+          "24": 0.43698478417613784,
+          "38": 0.535447516708164,
+          "82": 0.3770927019558975
+        }
+      },
+      "temporal": {
+        "id": "aligned_median_k7",
+        "tp": 59031,
+        "fp": 42087,
+        "fn": 100421,
+        "precisao": 0.5837833026760814,
+        "recall": 0.37021172515866846,
+        "f1": 0.4530912998426527,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 59028,
+            "perdidas": 97488,
+            "recall": 0.37713716169592887
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 3,
+            "perdidas": 2933,
+            "recall": 0.0010217983651226157
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 59,
+            "perdidas": 6542,
+            "recall": 0.008938039690955916
+          }
+        },
+        "seconds": 9715.044776599767,
+        "by_participant_f1": {
+          "14": 0.42488463510511026,
+          "24": 0.46408713098308974,
+          "38": 0.5454028436018957,
+          "82": 0.39995879368513226
+        }
+      },
+      "selected": {
+        "id": "aligned_median_k7",
+        "tp": 59031,
+        "fp": 42087,
+        "fn": 100421,
+        "precisao": 0.5837833026760814,
+        "recall": 0.37021172515866846,
+        "f1": 0.4530912998426527,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 59028,
+            "perdidas": 97488,
+            "recall": 0.37713716169592887
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 3,
+            "perdidas": 2933,
+            "recall": 0.0010217983651226157
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 59,
+            "perdidas": 6542,
+            "recall": 0.008938039690955916
+          }
+        },
+        "seconds": 9715.044776599767,
+        "by_participant_f1": {
+          "14": 0.42488463510511026,
+          "24": 0.46408713098308974,
+          "38": 0.5454028436018957,
+          "82": 0.39995879368513226
+        }
+      },
+      "delta_final": 0.025141880785793214,
+      "delta_selection": 0.035251137106707575,
+      "selection_f1": {
+        "k1": 0.595166268592713,
+        "aligned_median_k7": 0.6304174056994206
+      },
+      "cost_ratio": 28.133271970156454,
+      "interval_95": [
+        0.015201958129840154,
+        0.03649206963010848
+      ]
+    },
+    {
+      "track": "blobs_classico",
+      "label": "Blobs clássico",
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_temporal\\final\\batch__20261018T230718785425Z",
+      "frozen": "aligned_median_k9",
+      "control": {
+        "id": "k1",
+        "tp": 76736,
+        "fp": 77087,
+        "fn": 82716,
+        "precisao": 0.49885907829128284,
+        "recall": 0.4812482753430499,
+        "f1": 0.4898954592610326,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 76706,
+            "perdidas": 79810,
+            "recall": 0.4900840808607427
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 30,
+            "perdidas": 2906,
+            "recall": 0.010217983651226158
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 113,
+            "perdidas": 6488,
+            "recall": 0.017118618391152855
+          }
+        },
+        "seconds": 108.80994240026484,
+        "by_participant_f1": {
+          "14": 0.2563102811409809,
+          "24": 0.5441054234593893,
+          "38": 0.6528229553903345,
+          "82": 0.38419549349412885
+        }
+      },
+      "temporal": {
+        "id": "aligned_median_k9",
+        "tp": 77829,
+        "fp": 76173,
+        "fn": 81623,
+        "precisao": 0.5053765535512525,
+        "recall": 0.48810300278453705,
+        "f1": 0.4965896112348223,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 77802,
+            "perdidas": 78714,
+            "recall": 0.49708655984052746
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 27,
+            "perdidas": 2909,
+            "recall": 0.009196185286103543
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 117,
+            "perdidas": 6484,
+            "recall": 0.017724587183760035
+          }
+        },
+        "seconds": 12798.704292199895,
+        "by_participant_f1": {
+          "14": 0.2658469804205197,
+          "24": 0.5494244660946649,
+          "38": 0.6700186003255056,
+          "82": 0.3884152404324187
+        }
+      },
+      "selected": {
+        "id": "aligned_median_k9",
+        "tp": 77829,
+        "fp": 76173,
+        "fn": 81623,
+        "precisao": 0.5053765535512525,
+        "recall": 0.48810300278453705,
+        "f1": 0.4965896112348223,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 77802,
+            "perdidas": 78714,
+            "recall": 0.49708655984052746
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 27,
+            "perdidas": 2909,
+            "recall": 0.009196185286103543
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 117,
+            "perdidas": 6484,
+            "recall": 0.017724587183760035
+          }
+        },
+        "seconds": 12798.704292199895,
+        "by_participant_f1": {
+          "14": 0.2658469804205197,
+          "24": 0.5494244660946649,
+          "38": 0.6700186003255056,
+          "82": 0.3884152404324187
+        }
+      },
+      "delta_final": 0.006694151973789697,
+      "delta_selection": 0.0007030040202808951,
+      "selection_f1": {
+        "k1": 0.6687023477013664,
+        "aligned_median_k9": 0.6694053517216473
+      },
+      "cost_ratio": 117.62440094967592,
+      "interval_95": [
+        0.004695525567016079,
+        0.015009944765010386
+      ]
+    },
+    {
+      "track": "blobs_hibrido",
+      "label": "Blobs híbrido",
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_temporal\\final\\batch__20261018T230718785544Z",
+      "frozen": "extreme_k3",
+      "control": {
+        "id": "k1",
+        "tp": 115550,
+        "fp": 26584,
+        "fn": 43902,
+        "precisao": 0.8129652299942308,
+        "recall": 0.7246694930135715,
+        "f1": 0.7662822544813088,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 115550,
+            "perdidas": 40966,
+            "recall": 0.7382631807610723
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 0,
+            "perdidas": 2936,
+            "recall": 0.0
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 0,
+            "perdidas": 6601,
+            "recall": 0.0
+          }
+        },
+        "seconds": 314.931852099704,
+        "by_participant_f1": {
+          "14": 0.6321641089884121,
+          "24": 0.7541549221646531,
+          "38": 0.8738423416447266,
+          "82": 0.7699556865083541
+        }
+      },
+      "temporal": {
+        "id": "extreme_k3",
+        "tp": 120460,
+        "fp": 28163,
+        "fn": 38992,
+        "precisao": 0.8105071220470587,
+        "recall": 0.7554624589218072,
+        "f1": 0.7820173659011604,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 120458,
+            "perdidas": 36058,
+            "recall": 0.7696209972143423
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 2,
+            "perdidas": 2934,
+            "recall": 0.0006811989100817438
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 0,
+            "perdidas": 6601,
+            "recall": 0.0
+          }
+        },
+        "seconds": 370.9030143001946,
+        "by_participant_f1": {
+          "14": 0.6217568711987066,
+          "24": 0.7702169172500861,
+          "38": 0.8874772036474164,
+          "82": 0.7896185428655915
+        }
+      },
+      "selected": {
+        "id": "extreme_k3",
+        "tp": 120460,
+        "fp": 28163,
+        "fn": 38992,
+        "precisao": 0.8105071220470587,
+        "recall": 0.7554624589218072,
+        "f1": 0.7820173659011604,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 120458,
+            "perdidas": 36058,
+            "recall": 0.7696209972143423
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 2,
+            "perdidas": 2934,
+            "recall": 0.0006811989100817438
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 0,
+            "perdidas": 6601,
+            "recall": 0.0
+          }
+        },
+        "seconds": 370.9030143001946,
+        "by_participant_f1": {
+          "14": 0.6217568711987066,
+          "24": 0.7702169172500861,
+          "38": 0.8874772036474164,
+          "82": 0.7896185428655915
+        }
+      },
+      "delta_final": 0.015735111419851622,
+      "delta_selection": 0.02493359136482598,
+      "selection_f1": {
+        "k1": 0.5142508160834018,
+        "extreme_k3": 0.5391844074482278
+      },
+      "cost_ratio": 1.17772467861641,
+      "interval_95": [
+        0.00692891311596977,
+        0.018318619836235728
+      ]
+    },
+    {
+      "track": "watershed_classico",
+      "label": "Watershed clássico",
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_temporal\\final\\batch__20261018T232040710416Z",
+      "frozen": "k1",
+      "control": {
+        "id": "k1",
+        "tp": 92520,
+        "fp": 68505,
+        "fn": 66932,
+        "precisao": 0.5745691662785282,
+        "recall": 0.5802373127963274,
+        "f1": 0.5773893290314126,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 92075,
+            "perdidas": 64441,
+            "recall": 0.5882785146566485
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 445,
+            "perdidas": 2491,
+            "recall": 0.15156675749318801
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 75,
+            "perdidas": 6526,
+            "recall": 0.011361914861384638
+          }
+        },
+        "seconds": 266.337147999875,
+        "by_participant_f1": {
+          "14": 0.18623108811961875,
+          "24": 0.5885011990407674,
+          "38": 0.842068009555549,
+          "82": 0.5797022294559079
+        }
+      },
+      "temporal": {
+        "id": "nlm_k9",
+        "tp": 94969,
+        "fp": 63229,
+        "fn": 64483,
+        "precisao": 0.6003173238599729,
+        "recall": 0.595596166871535,
+        "f1": 0.5979474264127184,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 94544,
+            "perdidas": 61972,
+            "recall": 0.6040532597306346
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 425,
+            "perdidas": 2511,
+            "recall": 0.14475476839237056
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 70,
+            "perdidas": 6531,
+            "recall": 0.010604453870625663
+          }
+        },
+        "seconds": 9720.662818999714,
+        "by_participant_f1": {
+          "14": 0.2765334388603087,
+          "24": 0.5981318471032866,
+          "38": 0.8559437252467932,
+          "82": 0.5909638422285977
+        }
+      },
+      "selected": {
+        "id": "k1",
+        "tp": 92520,
+        "fp": 68505,
+        "fn": 66932,
+        "precisao": 0.5745691662785282,
+        "recall": 0.5802373127963274,
+        "f1": 0.5773893290314126,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 92075,
+            "perdidas": 64441,
+            "recall": 0.5882785146566485
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 445,
+            "perdidas": 2491,
+            "recall": 0.15156675749318801
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 75,
+            "perdidas": 6526,
+            "recall": 0.011361914861384638
+          }
+        },
+        "seconds": 266.337147999875,
+        "by_participant_f1": {
+          "14": 0.18623108811961875,
+          "24": 0.5885011990407674,
+          "38": 0.842068009555549,
+          "82": 0.5797022294559079
+        }
+      },
+      "delta_final": 0.020558097381305762,
+      "delta_selection": -0.020370906789431098,
+      "selection_f1": {
+        "k1": 0.3383063445712769,
+        "nlm_k9": 0.3179354377818458
+      },
+      "cost_ratio": 36.497585455125005,
+      "interval_95": [
+        0.009887560410893115,
+        0.06406666175180997
+      ]
+    },
+    {
+      "track": "watershed_hibrido",
+      "label": "Watershed híbrido",
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_temporal\\final\\batch__20261019T011037282640Z",
+      "frozen": "k1",
+      "control": {
+        "id": "k1",
+        "tp": 81600,
+        "fp": 27394,
+        "fn": 77852,
+        "precisao": 0.7486650641319705,
+        "recall": 0.5117527531796403,
+        "f1": 0.6079434970161597,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 81599,
+            "perdidas": 74917,
+            "recall": 0.5213460604666615
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 1,
+            "perdidas": 2935,
+            "recall": 0.0003405994550408719
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 0,
+            "perdidas": 6601,
+            "recall": 0.0
+          }
+        },
+        "seconds": 424.1156426001253,
+        "by_participant_f1": {
+          "14": 0.30395769908668485,
+          "24": 0.5962567765845325,
+          "38": 0.8531612420501309,
+          "82": 0.577776648585475
+        }
+      },
+      "temporal": {
+        "id": "nlm_k9",
+        "tp": 88466,
+        "fp": 30163,
+        "fn": 70986,
+        "precisao": 0.7457367085619874,
+        "recall": 0.5548127336126233,
+        "f1": 0.6362606578658736,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 88466,
+            "perdidas": 68050,
+            "recall": 0.5652201691839812
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 0,
+            "perdidas": 2936,
+            "recall": 0.0
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 4,
+            "perdidas": 6597,
+            "recall": 0.0006059687926071808
+          }
+        },
+        "seconds": 10963.88396420001,
+        "by_participant_f1": {
+          "14": 0.39548184157849586,
+          "24": 0.628211726513322,
+          "38": 0.8621670066135113,
+          "82": 0.6023122684925356
+        }
+      },
+      "selected": {
+        "id": "k1",
+        "tp": 81600,
+        "fp": 27394,
+        "fn": 77852,
+        "precisao": 0.7486650641319705,
+        "recall": 0.5117527531796403,
+        "f1": 0.6079434970161597,
+        "situacao_f1": "definido",
+        "coverage": {
+          "0": {
+            "anotacoes": 156516,
+            "localizadas": 81599,
+            "perdidas": 74917,
+            "recall": 0.5213460604666615
+          },
+          "2": {
+            "anotacoes": 2936,
+            "localizadas": 1,
+            "perdidas": 2935,
+            "recall": 0.0003405994550408719
+          },
+          "1": {
+            "anotacoes": 6601,
+            "localizadas": 0,
+            "perdidas": 6601,
+            "recall": 0.0
+          }
+        },
+        "seconds": 424.1156426001253,
+        "by_participant_f1": {
+          "14": 0.30395769908668485,
+          "24": 0.5962567765845325,
+          "38": 0.8531612420501309,
+          "82": 0.577776648585475
+        }
+      },
+      "delta_final": 0.028317160849713918,
+      "delta_selection": -0.010529849164721883,
+      "selection_f1": {
+        "k1": 0.34106886217538074,
+        "nlm_k9": 0.33053901301065886
+      },
+      "cost_ratio": 25.85116619840697,
+      "interval_95": [
+        0.015372724695825513,
+        0.041425126475738594
+      ]
+    }
+  ],
+  "small": [
+    {
+      "track": "limiarizacao_classico",
+      "phase": "selection",
+      "condition": "frozen",
+      "metric": {
+        "tp": 33832,
+        "fp": 105958,
+        "fn": 89427,
+        "precisao": 0.2420201731168181,
+        "recall": 0.2744789427141223,
+        "f1": 0.2572296416257047,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 265,
+        "perdidas": 5708,
+        "recall": 0.04436631508454713
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_pequenos\\selecao\\batch__20261020T131227059701Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "limiarizacao_classico",
+      "phase": "selection",
+      "condition": "k1",
+      "metric": {
+        "tp": 33832,
+        "fp": 105958,
+        "fn": 89427,
+        "precisao": 0.2420201731168181,
+        "recall": 0.2744789427141223,
+        "f1": 0.2572296416257047,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 265,
+        "perdidas": 5708,
+        "recall": 0.04436631508454713
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_pequenos\\selecao\\batch__20261020T131227059701Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_classico",
+      "phase": "selection",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 46517,
+        "fp": 272540,
+        "fn": 76742,
+        "precisao": 0.14579526542279278,
+        "recall": 0.3773923202362505,
+        "f1": 0.21033378851318968,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 265,
+        "perdidas": 5708,
+        "recall": 0.04436631508454713
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.08566067670484903,
+          0.28545824638664496
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_pequenos\\selecao\\batch__20261020T131227059701Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_classico",
+      "phase": "final",
+      "condition": "frozen",
+      "metric": {
+        "tp": 3360,
+        "fp": 181380,
+        "fn": 156092,
+        "precisao": 0.01818772328678142,
+        "recall": 0.021072172189749893,
+        "f1": 0.019523986612123467,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 0,
+        "perdidas": 2936,
+        "recall": 0.0
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_pequenos\\final\\batch__20261020T165715331854Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "limiarizacao_classico",
+      "phase": "final",
+      "condition": "k1",
+      "metric": {
+        "tp": 3360,
+        "fp": 181380,
+        "fn": 156092,
+        "precisao": 0.01818772328678142,
+        "recall": 0.021072172189749893,
+        "f1": 0.019523986612123467,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 0,
+        "perdidas": 2936,
+        "recall": 0.0
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_pequenos\\final\\batch__20261020T165715331854Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_classico",
+      "phase": "final",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 90868,
+        "fp": 320409,
+        "fn": 68584,
+        "precisao": 0.22094111754365062,
+        "recall": 0.5698768281363671,
+        "f1": 0.31842783527733826,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 1,
+        "perdidas": 2935,
+        "recall": 0.0003405994550408719
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.21279784232365925,
+          0.5031559015358721
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_pequenos\\final\\batch__20261020T165715331854Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "phase": "selection",
+      "condition": "frozen",
+      "metric": {
+        "tp": 66643,
+        "fp": 21523,
+        "fn": 56616,
+        "precisao": 0.7558809518408457,
+        "recall": 0.5406745146399046,
+        "f1": 0.6304174056994206,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 105,
+        "perdidas": 5868,
+        "recall": 0.01757910597689603
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_pequenos\\selecao\\batch__20261020T131213421165Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "phase": "selection",
+      "condition": "k1",
+      "metric": {
+        "tp": 59680,
+        "fp": 17610,
+        "fn": 63579,
+        "precisao": 0.7721568120067279,
+        "recall": 0.48418371072294925,
+        "f1": 0.595166268592713,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 107,
+        "perdidas": 5866,
+        "recall": 0.01791394609074167
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.057277999842869964,
+          0.004446977851840561
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_pequenos\\selecao\\batch__20261020T131213421165Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "phase": "selection",
+      "condition": "r4c05",
+      "metric": {
+        "tp": 64444,
+        "fp": 62278,
+        "fn": 58815,
+        "precisao": 0.5085462666308929,
+        "recall": 0.5228340324033134,
+        "f1": 0.5155911849300547,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 8,
+        "perdidas": 5965,
+        "recall": 0.0013393604553825547
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.1554201044276356,
+          -0.012713961563342036
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_pequenos\\selecao\\batch__20261020T131213421165Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "phase": "final",
+      "condition": "frozen",
+      "metric": {
+        "tp": 59031,
+        "fp": 42087,
+        "fn": 100421,
+        "precisao": 0.5837833026760814,
+        "recall": 0.37021172515866846,
+        "f1": 0.4530912998426527,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 3,
+        "perdidas": 2933,
+        "recall": 0.0010217983651226157
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_pequenos\\final\\batch__20261020T165653785564Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "phase": "final",
+      "condition": "k1",
+      "metric": {
+        "tp": 53370,
+        "fp": 36600,
+        "fn": 106082,
+        "precisao": 0.5931977325775258,
+        "recall": 0.3347088779068309,
+        "f1": 0.42794941905685946,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 3,
+        "perdidas": 2933,
+        "recall": 0.0010217983651226157
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.03649206963010848,
+          -0.015201958129840154
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_pequenos\\final\\batch__20261020T165653785564Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "limiarizacao_hibrido",
+      "phase": "final",
+      "condition": "r4c05",
+      "metric": {
+        "tp": 100463,
+        "fp": 83414,
+        "fn": 58989,
+        "precisao": 0.5463597948628703,
+        "recall": 0.6300516769937035,
+        "f1": 0.5852287456055271,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 4,
+        "perdidas": 2932,
+        "recall": 0.0013623978201634877
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.11443792509117706,
+          0.15728944798089517
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\limiarizacao_hibrido_pequenos\\final\\batch__20261020T165653785564Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_classico",
+      "phase": "selection",
+      "condition": "frozen",
+      "metric": {
+        "tp": 88971,
+        "fp": 53591,
+        "fn": 34288,
+        "precisao": 0.6240863624247696,
+        "recall": 0.7218215302736514,
+        "f1": 0.6694053517216473,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 571,
+        "perdidas": 5402,
+        "recall": 0.09559685250292985
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_pequenos\\selecao\\batch__20261020T131222379888Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "blobs_classico",
+      "phase": "selection",
+      "condition": "k1",
+      "metric": {
+        "tp": 88583,
+        "fp": 53098,
+        "fn": 34676,
+        "precisao": 0.6252285062923045,
+        "recall": 0.7186736871141255,
+        "f1": 0.6687023477013664,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 574,
+        "perdidas": 5399,
+        "recall": 0.0960991126736983
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.004374332542251502,
+          0.004677276721973267
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_pequenos\\selecao\\batch__20261020T131222379888Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_classico",
+      "phase": "selection",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 88971,
+        "fp": 53591,
+        "fn": 34288,
+        "precisao": 0.6240863624247696,
+        "recall": 0.7218215302736514,
+        "f1": 0.6694053517216473,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 571,
+        "perdidas": 5402,
+        "recall": 0.09559685250292985
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_pequenos\\selecao\\batch__20261020T131222379888Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_classico",
+      "phase": "final",
+      "condition": "frozen",
+      "metric": {
+        "tp": 77829,
+        "fp": 76173,
+        "fn": 81623,
+        "precisao": 0.5053765535512525,
+        "recall": 0.48810300278453705,
+        "f1": 0.4965896112348223,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 27,
+        "perdidas": 2909,
+        "recall": 0.009196185286103543
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_pequenos\\final\\batch__20261026T183500052565Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "blobs_classico",
+      "phase": "final",
+      "condition": "k1",
+      "metric": {
+        "tp": 76736,
+        "fp": 77087,
+        "fn": 82716,
+        "precisao": 0.49885907829128284,
+        "recall": 0.4812482753430499,
+        "f1": 0.4898954592610326,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 30,
+        "perdidas": 2906,
+        "recall": 0.010217983651226158
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.015009944765010386,
+          -0.004695525567016079
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_pequenos\\final\\batch__20261026T183500052565Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_classico",
+      "phase": "final",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 77829,
+        "fp": 76173,
+        "fn": 81623,
+        "precisao": 0.5053765535512525,
+        "recall": 0.48810300278453705,
+        "f1": 0.4965896112348223,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 27,
+        "perdidas": 2909,
+        "recall": 0.009196185286103543
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_pequenos\\final\\batch__20261026T183500052565Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_hibrido",
+      "phase": "selection",
+      "condition": "frozen",
+      "metric": {
+        "tp": 65065,
+        "fp": 53022,
+        "fn": 58194,
+        "precisao": 0.5509920651722883,
+        "recall": 0.5278722040581215,
+        "f1": 0.5391844074482278,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 417,
+        "perdidas": 5556,
+        "recall": 0.06981416373681568
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_pequenos\\selecao\\batch__20261020T131934299057Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "blobs_hibrido",
+      "phase": "selection",
+      "condition": "k1",
+      "metric": {
+        "tp": 59785,
+        "fp": 49469,
+        "fn": 63474,
+        "precisao": 0.5472110860929577,
+        "recall": 0.48503557549550136,
+        "f1": 0.5142508160834018,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 334,
+        "perdidas": 5639,
+        "recall": 0.055918299012221666
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.03824259256141049,
+          0.011211948562716123
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_pequenos\\selecao\\batch__20261020T131934299057Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_hibrido",
+      "phase": "selection",
+      "condition": "r4c06",
+      "metric": {
+        "tp": 64314,
+        "fp": 53764,
+        "fn": 58945,
+        "precisao": 0.5446738596520944,
+        "recall": 0.5217793426849155,
+        "f1": 0.5329808525008598,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 431,
+        "perdidas": 5542,
+        "recall": 0.07215804453373514
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.01251634071561214,
+          -0.002273584627240921
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_pequenos\\selecao\\batch__20261020T131934299057Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_hibrido",
+      "phase": "final",
+      "condition": "frozen",
+      "metric": {
+        "tp": 120460,
+        "fp": 28163,
+        "fn": 38992,
+        "precisao": 0.8105071220470587,
+        "recall": 0.7554624589218072,
+        "f1": 0.7820173659011604,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 2,
+        "perdidas": 2934,
+        "recall": 0.0006811989100817438
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_pequenos\\final\\batch__20261020T170527647696Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "blobs_hibrido",
+      "phase": "final",
+      "condition": "k1",
+      "metric": {
+        "tp": 115550,
+        "fp": 26584,
+        "fn": 43902,
+        "precisao": 0.8129652299942308,
+        "recall": 0.7246694930135715,
+        "f1": 0.7662822544813088,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 0,
+        "perdidas": 2936,
+        "recall": 0.0
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.018318619836235728,
+          -0.00692891311596977
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_pequenos\\final\\batch__20261020T170527647696Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "blobs_hibrido",
+      "phase": "final",
+      "condition": "r4c06",
+      "metric": {
+        "tp": 116551,
+        "fp": 29608,
+        "fn": 42901,
+        "precisao": 0.7974260907641678,
+        "recall": 0.7309472443117678,
+        "f1": 0.76274086992942,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 4,
+        "perdidas": 2932,
+        "recall": 0.0013623978201634877
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.025283244904486524,
+          -0.008277792866848044
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\blobs_hibrido_pequenos\\final\\batch__20261020T170527647696Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_classico",
+      "phase": "selection",
+      "condition": "frozen",
+      "metric": {
+        "tp": 38232,
+        "fp": 64529,
+        "fn": 85027,
+        "precisao": 0.3720477613102247,
+        "recall": 0.31017613318297244,
+        "f1": 0.3383063445712769,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 133,
+        "perdidas": 5840,
+        "recall": 0.022266867570734972
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_pequenos\\selecao\\batch__20261020T133156500727Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "watershed_classico",
+      "phase": "selection",
+      "condition": "k1",
+      "metric": {
+        "tp": 38232,
+        "fp": 64529,
+        "fn": 85027,
+        "precisao": 0.3720477613102247,
+        "recall": 0.31017613318297244,
+        "f1": 0.3383063445712769,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 133,
+        "perdidas": 5840,
+        "recall": 0.022266867570734972
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_pequenos\\selecao\\batch__20261020T133156500727Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_classico",
+      "phase": "selection",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 41381,
+        "fp": 370015,
+        "fn": 81878,
+        "precisao": 0.10058678256473082,
+        "recall": 0.3357239633617018,
+        "f1": 0.15479514827318552,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 344,
+        "perdidas": 5629,
+        "recall": 0.05759249958144986
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.2809880142376632,
+          -0.09411481281083994
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_pequenos\\selecao\\batch__20261020T133156500727Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_classico",
+      "phase": "final",
+      "condition": "frozen",
+      "metric": {
+        "tp": 92520,
+        "fp": 68505,
+        "fn": 66932,
+        "precisao": 0.5745691662785282,
+        "recall": 0.5802373127963274,
+        "f1": 0.5773893290314126,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 445,
+        "perdidas": 2491,
+        "recall": 0.15156675749318801
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_pequenos\\final\\batch__20261020T171643151264Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "watershed_classico",
+      "phase": "final",
+      "condition": "k1",
+      "metric": {
+        "tp": 92520,
+        "fp": 68505,
+        "fn": 66932,
+        "precisao": 0.5745691662785282,
+        "recall": 0.5802373127963274,
+        "f1": 0.5773893290314126,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 445,
+        "perdidas": 2491,
+        "recall": 0.15156675749318801
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_pequenos\\final\\batch__20261020T171643151264Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_classico",
+      "phase": "final",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 114579,
+        "fp": 365443,
+        "fn": 44873,
+        "precisao": 0.23869530979830092,
+        "recall": 0.7185798861099265,
+        "f1": 0.35835389710918664,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 445,
+        "perdidas": 2491,
+        "recall": 0.15156675749318801
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.2611347478232337,
+          -0.1901267829743905
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_pequenos\\final\\batch__20261020T171643151264Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_hibrido",
+      "phase": "selection",
+      "condition": "frozen",
+      "metric": {
+        "tp": 30614,
+        "fp": 25645,
+        "fn": 92645,
+        "precisao": 0.5441618229972094,
+        "recall": 0.2483713156848587,
+        "f1": 0.34106886217538074,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 44,
+        "perdidas": 5929,
+        "recall": 0.007366482504604052
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_pequenos\\selecao\\batch__20261020T135142147174Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_hibrido",
+      "phase": "selection",
+      "condition": "k1",
+      "metric": {
+        "tp": 30614,
+        "fp": 25645,
+        "fn": 92645,
+        "precisao": 0.5441618229972094,
+        "recall": 0.2483713156848587,
+        "f1": 0.34106886217538074,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 44,
+        "perdidas": 5929,
+        "recall": 0.007366482504604052
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_pequenos\\selecao\\batch__20261020T135142147174Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_hibrido",
+      "phase": "selection",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 31063,
+        "fp": 26733,
+        "fn": 92196,
+        "precisao": 0.5374593397466952,
+        "recall": 0.25201405171224817,
+        "f1": 0.34313330203529313,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 5973,
+        "localizadas": 42,
+        "perdidas": 5931,
+        "recall": 0.007031642390758413
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.002697705643100956,
+          0.007557416425813174
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_pequenos\\selecao\\batch__20261020T135142147174Z",
+      "selected_before_final": true
+    },
+    {
+      "track": "watershed_hibrido",
+      "phase": "final",
+      "condition": "frozen",
+      "metric": {
+        "tp": 81600,
+        "fp": 27394,
+        "fn": 77852,
+        "precisao": 0.7486650641319705,
+        "recall": 0.5117527531796403,
+        "f1": 0.6079434970161597,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 1,
+        "perdidas": 2935,
+        "recall": 0.0003405994550408719
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_pequenos\\final\\batch__20261020T173326873341Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_hibrido",
+      "phase": "final",
+      "condition": "k1",
+      "metric": {
+        "tp": 81600,
+        "fp": 27394,
+        "fn": 77852,
+        "precisao": 0.7486650641319705,
+        "recall": 0.5117527531796403,
+        "f1": 0.6079434970161597,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 1,
+        "perdidas": 2935,
+        "recall": 0.0003405994550408719
+      },
+      "bootstrap": {
+        "interval_95": [
+          0.0,
+          0.0
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_pequenos\\final\\batch__20261020T173326873341Z",
+      "selected_before_final": false
+    },
+    {
+      "track": "watershed_hibrido",
+      "phase": "final",
+      "condition": "r4c01",
+      "metric": {
+        "tp": 81753,
+        "fp": 27824,
+        "fn": 77699,
+        "precisao": 0.7460781003312739,
+        "recall": 0.5127122895918521,
+        "f1": 0.6077634753130703,
+        "situacao_f1": "definido"
+      },
+      "small": {
+        "anotacoes": 2936,
+        "localizadas": 0,
+        "perdidas": 2936,
+        "recall": 0.0
+      },
+      "bootstrap": {
+        "interval_95": [
+          -0.001319779190873338,
+          0.00037484101660578695
+        ],
+        "participants": 4,
+        "replicates": 2000,
+        "seed": 42,
+        "valid_replicates": 2000,
+        "exploratory": true
+      },
+      "batch": "C:\\Users\\leand\\Documents\\ufu\\2026_01\\TCC\\my_tcc\\resultados\\videos\\watershed_hibrido_pequenos\\final\\batch__20261020T173326873341Z",
+      "selected_before_final": true
+    }
+  ],
+  "sources": {
+    "resultados/modernos/yolo/indice.json": "2dcb2417f454959d8bdafaa0fe115aae6b27bc246d3b5a2359a101669c9e83a7",
+    "analise/conclusao_ciclo_temporal_20261018.json": "0da2ee3941b8874a668673cd26d771f40fea0d2953dcc7748bdeab5035a6f06c",
+    "analise/tabela_paineis_pequenos_20261020.json": "a475605a893db9a20afd5401baf7b533087c69c4f81f4c4189a765698f75afe7"
+  },
+  "checks": "F1 recomputed from counts; participant counts reconciled; equal frame and GT totals in each phase",
+  "metric": "F1 micro individuals 0+2, exclusive maximum-cardinality matching IoU>=0.50",
+  "historical_exposure": true
+}

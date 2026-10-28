@@ -1,0 +1,39 @@
+<!doctype html><html lang="pt-BR"><meta charset="utf-8"><title>YOLO — seleção e vídeos</title><style>body{font:17px system-ui;max-width:1200px;margin:32px auto;color:#163947}td,th{padding:10px;border-bottom:1px solid #ccd}a{color:#006878}video{max-width:100%}</style><h1>YOLO11s — indivíduos 0 e 2</h1>
+<p>Concluído e auditado. Confiança 0.20; IoU de avaliação≥0,50. Sem rastreamento. Originais preservados; dados historicamente expostos.</p>
+<p>Seleção da confiança em imagens → vídeos de seleção → congelamento → vídeos finais. A galeria de imagens inclui brutas (confiança0,01, diagnóstico) e yolo (confiança escolhida 0.20).</p>
+<h2>Imagens de seleção</h2><p><a href="selection_images/batch__20261026T222159599480Z/index.html">Abrir lote</a> · <a href="selection_images/batch__20261026T222159599480Z/relatorio.pdf">PDF</a> · <a href="selection_images/batch__20261026T222159599480Z/imagens/index.html">Imagens</a></p><table><tr><th>Sistema</th><th>Precisão</th><th>Recall</th><th>F1</th><th>Pequenos</th></tr>
+<tr><td>YOLO</td><td>0.6416</td><td>0.6635</td><td>0.6524</td><td>7/60</td></tr>
+<tr><td>Limiar clássico</td><td>0.2511</td><td>0.2817</td><td>0.2655</td><td>3/60</td></tr>
+<tr><td>Limiar híbrido</td><td>0.7709</td><td>0.5500</td><td>0.6420</td><td>0/60</td></tr>
+<tr><td>Blobs clássico</td><td>0.6213</td><td>0.7175</td><td>0.6659</td><td>7/60</td></tr>
+<tr><td>Blobs híbrido</td><td>0.5543</td><td>0.5310</td><td>0.5424</td><td>4/60</td></tr>
+<tr><td>Watershed clássico</td><td>0.3754</td><td>0.3119</td><td>0.3407</td><td>3/60</td></tr>
+<tr><td>Watershed híbrido</td><td>0.5363</td><td>0.2460</td><td>0.3373</td><td>0/60</td></tr>
+</table>
+<h2>Vídeos de seleção</h2><p><a href="selection/batch__20261026T222312691507Z/index.html">Abrir lote</a> · <a href="selection/batch__20261026T222312691507Z/relatorio.pdf">PDF</a> · <a href="selection/batch__20261026T222312691507Z/imagens/index.html">Imagens</a></p><table><tr><th>Sistema</th><th>Precisão</th><th>Recall</th><th>F1</th><th>Pequenos</th></tr>
+<tr><td>YOLO</td><td>0.6262</td><td>0.6528</td><td>0.6392</td><td>564/5973</td></tr>
+<tr><td>Limiar clássico</td><td>0.2420</td><td>0.2745</td><td>0.2572</td><td>265/5973</td></tr>
+<tr><td>Limiar híbrido</td><td>0.7559</td><td>0.5407</td><td>0.6304</td><td>105/5973</td></tr>
+<tr><td>Blobs clássico</td><td>0.6241</td><td>0.7218</td><td>0.6694</td><td>571/5973</td></tr>
+<tr><td>Blobs híbrido</td><td>0.5510</td><td>0.5279</td><td>0.5392</td><td>417/5973</td></tr>
+<tr><td>Watershed clássico</td><td>0.3720</td><td>0.3102</td><td>0.3383</td><td>133/5973</td></tr>
+<tr><td>Watershed híbrido</td><td>0.5375</td><td>0.2520</td><td>0.3431</td><td>42/5973</td></tr>
+</table>
+<h3>yolo__video_13.mp4</h3><video controls preload="metadata" width="960" src="selection/batch__20261026T222312691507Z/yolo__video_13.mp4"></video>
+<h3>yolo__video_29.mp4</h3><video controls preload="metadata" width="960" src="selection/batch__20261026T222312691507Z/yolo__video_29.mp4"></video>
+<h3>yolo__video_52.mp4</h3><video controls preload="metadata" width="960" src="selection/batch__20261026T222312691507Z/yolo__video_52.mp4"></video>
+<h3>yolo__video_54.mp4</h3><video controls preload="metadata" width="960" src="selection/batch__20261026T222312691507Z/yolo__video_54.mp4"></video>
+<h2>Vídeos finais</h2><p><a href="final/batch__20261026T223107667644Z/index.html">Abrir lote</a> · <a href="final/batch__20261026T223107667644Z/relatorio.pdf">PDF</a> · <a href="final/batch__20261026T223107667644Z/imagens/index.html">Imagens</a></p><table><tr><th>Sistema</th><th>Precisão</th><th>Recall</th><th>F1</th><th>Pequenos</th></tr>
+<tr><td>YOLO</td><td>0.8041</td><td>0.8199</td><td>0.8120</td><td>0/2936</td></tr>
+<tr><td>Limiar clássico</td><td>0.0182</td><td>0.0211</td><td>0.0195</td><td>0/2936</td></tr>
+<tr><td>Limiar híbrido</td><td>0.5838</td><td>0.3702</td><td>0.4531</td><td>3/2936</td></tr>
+<tr><td>Blobs clássico</td><td>0.5054</td><td>0.4881</td><td>0.4966</td><td>27/2936</td></tr>
+<tr><td>Blobs híbrido</td><td>0.8105</td><td>0.7555</td><td>0.7820</td><td>2/2936</td></tr>
+<tr><td>Watershed clássico</td><td>0.5746</td><td>0.5802</td><td>0.5774</td><td>445/2936</td></tr>
+<tr><td>Watershed híbrido</td><td>0.7461</td><td>0.5127</td><td>0.6078</td><td>0/2936</td></tr>
+</table>
+<h3>yolo__video_14.mp4</h3><video controls preload="metadata" width="960" src="final/batch__20261026T223107667644Z/yolo__video_14.mp4"></video>
+<h3>yolo__video_24.mp4</h3><video controls preload="metadata" width="960" src="final/batch__20261026T223107667644Z/yolo__video_24.mp4"></video>
+<h3>yolo__video_38.mp4</h3><video controls preload="metadata" width="960" src="final/batch__20261026T223107667644Z/yolo__video_38.mp4"></video>
+<h3>yolo__video_82.mp4</h3><video controls preload="metadata" width="960" src="final/batch__20261026T223107667644Z/yolo__video_82.mp4"></video>
+<p>Mais supervisão e pré-treino externo distinguem o YOLO dos híbridos. Resultados exploratórios, não teste inédito. Subtipo0/2 não é previsto; classe1 não é alvo.</p></html>
